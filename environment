@@ -1,0 +1,14 @@
+#!/bin/sh
+
+site=Cordoba
+# Raw data zips directory zips to process
+export Poleno_hourly_zips=/home/sda/PolenoZips${site}/
+# Scripts directory
+export Poleno_scripts=$HOME/local_Poleno_recognition/FMI_Poleno_Operational
+# Outputs
+export Poleno_output=$HOME/local_Poleno_recognition/${site}_Poleno_Results
+# Logs
+export Log_dir=$Poleno_output/Logs
+# Time series output file
+export Recognition_Results_file=${site}_Poleno_Recognition.csv
+
